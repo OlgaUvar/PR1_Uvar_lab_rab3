@@ -1,0 +1,27 @@
+# PR1_Uvar_lab_rab3
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js">
+</script>
+
+<script>
+$(document).ready(function () {
+$("input").keypress(function () {
+var max = 255;
+var min=0;
+var p =Math.floor(Math.random()*(max - min+1))+min;
+var y =Math.floor(Math.random()*(max - min+1))+min;
+var x =Math.floor(Math.random()*(max - min+1))+min;
+var c ="rgb"("+p+","+y+","+x+")";
+$("input").css(background-color",c);
+});
+});
+</script>
+
+</head>
+<body>
+Color: <input type="text" name="text2"><br>
+
+</body>
+</html>
