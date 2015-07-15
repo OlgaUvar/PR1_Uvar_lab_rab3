@@ -1,0 +1,32 @@
+# PR1_Uvar_lab_rab3
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js">
+</script>
+<script>
+
+$(document).ready(function () {
+$(".but1").click(function () {
+$("tr:even").hide();
+});
+$(".but2").click(function () {
+$("tr:even").show();
+});
+});
+</script>
+</head>
+<body>
+<button class="but1">Скрыть</button>
+<button class="but2">Открыть</button>
+<tr><h2>Таблица чисел</h2></tr>
+<table border="1">
+<tr><th>0</th></tr>
+<tr><th>Нечетные числа</th></tr>
+<tr><th>Четные числа.</th></tr>
+<tr><th>Нечетные числа.</th></tr>
+<tr><th>Четные числа.</th></tr>
+
+</body>
+</html>
